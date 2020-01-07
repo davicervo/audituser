@@ -1,0 +1,26 @@
+{
+  "name": "davicervo/auditoria",
+  "description": "Pacote criado para ajudar na auditoria das ações dos usuarios.",
+  "keywords": [
+    "auditoria",
+    "davicervo",
+    "acoes usuarios"
+  ],
+  "homepage": "http://www.davicervo.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Davi Cervo",
+      "email": "davicervo@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "FlashCode\\AuditingUser\\": "src"
+    }
+  }
+}
